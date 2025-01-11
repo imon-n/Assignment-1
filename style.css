@@ -1,20 +1,3 @@
-.fira-sans-thin {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .fira-sans-extralight {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .fira-sans-light {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
   
   .fira-sans-regular {
     font-family: "Fira Sans", serif;
@@ -38,72 +21,6 @@
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: normal;
-  }
-  
-  .fira-sans-extrabold {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .fira-sans-black {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .fira-sans-thin-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .fira-sans-extralight-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .fira-sans-light-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .fira-sans-regular-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .fira-sans-medium-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .fira-sans-semibold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .fira-sans-bold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .fira-sans-extrabold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .fira-sans-black-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: italic;
   }
   
 
@@ -144,7 +61,7 @@ nav p{
     font-size: 30px;
 }
 
-.banner button{
+.banner button, .news button{
     background-color: #006A50;
     color: #FFFFFF;
 }
@@ -175,13 +92,12 @@ nav p{
     margin-bottom: 10px;
 }
 
-.pillars p, .vision-section p{
-    font-size: 16px;
+.vision-section , .recent-news{
+    margin: 70px 150px;
 }
 
-
-.vision-section{
-    margin: 70px 150px;
+.pillars p, .vision-section p{
+    font-size: 16px;
 }
 
 .visions{
@@ -201,6 +117,14 @@ nav p{
     border: none;
     background-color: #5490F5;
     color: #FFFFFF;
+}
+
+.vision{
+    background-color: #c3cee1;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
 }
 
 .vision-btn-2{
@@ -223,7 +147,7 @@ nav p{
     padding-top: 18px;
 }
 
-.dr-yunus .p1{
+.dr-yunus .p1, .recent-news .p1{
     color: #0E0E0E;
     font-size: 16px;  
 }
@@ -239,4 +163,87 @@ nav p{
     opacity: 80%; 
 }
 
+/* .recent-news{
+    margin: 70px 150px;
+} */
+
+.recent-news h5{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.news1{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    /* margin-bottom: 30px; */
+    margin-top: 1px;
+    padding-bottom: 60px;
+}
+
+.news .satalite{
+    border-radius: 20px;
+    width: 350px;
+    height: 280px;
+
+}
+
+.news1 h5{
+    margin-bottom: 1px;
+    margin-top: -10px;
+}
+
+.news span{
+    margin: 0px 10px;
+}
+
+.news{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.donates{
+    text-align: center;
+    margin: 70px 150px;
+}
+
+.taka{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.tk{
+    background-color: white;
+    font-weight: bold;
+    color: #006A50;
+    border: 1px solid #bececb;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.tk2{
+    background-color: white;
+    font-weight: bold;
+    color: #006A50;
+    border: 4px solid #006A50;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.other{
+    opacity: 70%;
+    margin-bottom: 20px;
+}
+
+.donates h5{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.donates button{
+    background-color: #006A50;
+    color: #FFFFFF;
+}
 
