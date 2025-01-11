@@ -247,3 +247,43 @@ nav p{
     color: #FFFFFF;
 }
 
+.subscribes{
+    margin: 70px 280px;
+    text-align: center;
+}
+
+.subscribes h5{
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+input[type="email"]{
+    height: 34px;
+    width: 40%;
+    background-color: rgb(234, 221, 221);
+    padding: 10px 190px;
+    border: 1px solid #8a918f;
+    font-size: 20px;
+    color: #333;
+}
+
+.subscribes button{
+    font-size: 30px;
+    background-color: #006A50;
+    font-weight: bold;
+    color:  white;
+    padding: 10px 20px;
+}
+
+.subscribes .last{
+    opacity: 80%;
+}
+
+.serach-cotainer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* gap: 30px; */
+}
+
